@@ -6,11 +6,11 @@ Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
 -->
 
-# @rljson/cars-client
+# @cars-world/cars-client
 
 [English](README.md) | Deutsch
 
-[![CI](https://github.com/rljson/cars-client/actions/workflows/quick_check.yaml/badge.svg)](https://github.com/rljson/cars-client/actions/workflows/quick_check.yaml)
+[![CI](https://github.com/cars-world/cars-client/actions/workflows/quick_check.yaml/badge.svg)](https://github.com/cars-world/cars-client/actions/workflows/quick_check.yaml)
 
 Browser-App der cars-Beispiel-App.
 
@@ -26,13 +26,13 @@ Das Paket ist privat und wird nicht auf npm veröffentlicht. Abhängig
 macht man sich von einer getaggten Version seines Git-Repos:
 
 ```bash
-pnpm add git+ssh://git@github.com/rljson/cars-client.git#semver:^0.0.1
+pnpm add git+ssh://git@github.com/cars-world/cars-client.git#semver:^0.0.1
 ```
 
 ## Verwendung
 
 ```ts
-import { helloLines } from '@rljson/cars-client';
+import { helloLines } from '@cars-world/cars-client';
 
 const lines = await helloLines((url) => fetch(url));
 console.log(lines.join('\n'));

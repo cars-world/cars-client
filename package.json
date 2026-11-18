@@ -1,9 +1,9 @@
 {
-  "name": "@rljson/cars-client",
+  "name": "@cars-world/cars-client",
   "version": "0.1.0",
   "description": "Browser app of the cars example app",
-  "homepage": "https://github.com/rljson/cars-client",
-  "bugs": "https://github.com/rljson/cars-client/issues",
+  "homepage": "https://github.com/cars-world/cars-client",
+  "bugs": "https://github.com/cars-world/cars-client/issues",
   "private": true,
   "license": "MIT",
   "engines": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rljson/cars-client.git"
+    "url": "git+https://github.com/cars-world/cars-client.git"
   },
   "main": "dist/cars-client.js",
   "types": "dist/index.d.ts",
