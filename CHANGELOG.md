@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Move the repository to the GitHub organization `cars-world` and
+  rename the package to `@cars-world/cars-client`
 - Rename the package to `@rljson/cars-client` and the repo to
   `cars-client`: the build writes `dist/cars-client.js`, the page loads
   it, the container is `cars-client`, and `carsUiRuntimeVersion` is now

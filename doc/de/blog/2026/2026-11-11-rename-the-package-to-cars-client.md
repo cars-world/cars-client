@@ -14,7 +14,7 @@ found in the LICENSE file in the root of this package.
   Rljson-Client der Cars-Beispiel-App, der die Daten zeigt und im Browser
   in IndexedDB synchronisiert
 - Seine alten Namen, das Repo `cars-ui` und das Package
-  `@rljson/cars-ui-runtime`, sagten weder das eine noch das andere, und
+  `@cars-world/cars-ui-runtime`, sagten weder das eine noch das andere, und
   die Trennung in Core- und Runtime-Packages, aus der sie stammen, gibt es
   nicht mehr
 
@@ -28,9 +28,9 @@ found in the LICENSE file in the root of this package.
 
 ## Umsetzung
 
-- Das Repo `rljson/cars-ui` heißt auf GitHub jetzt `rljson/cars-client`;
+- Das Repo `cars-world/cars-ui` heißt auf GitHub jetzt `cars-world/cars-client`;
   GitHub leitet die alte URL weiter
-- `package.json` nennt `@rljson/cars-client`, mit Homepage, Issues und
+- `package.json` nennt `@cars-world/cars-client`, mit Homepage, Issues und
   Repository-URL des neuen Repos
 - vite leitet das Bundle aus dem Package-Namen ab, also schreibt der Build
   `dist/cars-client.js`; `public/index.html` und das Dockerfile laden und

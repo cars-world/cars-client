@@ -14,7 +14,7 @@ found in the LICENSE file in the root of this package.
   Rljson client of the cars example app, which shows the data and syncs
   it into IndexedDB in the browser
 - Its old names, the repo `cars-ui` and the package
-  `@rljson/cars-ui-runtime`, named neither, and the split into core and
+  `@cars-world/cars-ui-runtime`, named neither, and the split into core and
   runtime packages they stem from no longer exists
 
 ## Strategy
@@ -26,9 +26,9 @@ found in the LICENSE file in the root of this package.
 
 ## Implementation
 
-- The repo `rljson/cars-ui` is now `rljson/cars-client` on GitHub, which
+- The repo `cars-world/cars-ui` is now `cars-world/cars-client` on GitHub, which
   redirects the old URL
-- `package.json` names `@rljson/cars-client`, with homepage, issues and
+- `package.json` names `@cars-world/cars-client`, with homepage, issues and
   repository URL of the new repo
 - vite derives the bundle from the package name, so the build writes
   `dist/cars-client.js`; `public/index.html` and the Dockerfile load and

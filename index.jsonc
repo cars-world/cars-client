@@ -5,7 +5,7 @@
 // found in the LICENSE file in the root of this package.
 
 {
-  "name": "@rljson/cars-client",
+  "name": "@cars-world/cars-client",
   "summary": "Browser app of the cars example app: a page that shows its own hello line and the lines of /api/hello; served by nginx as the container cars-client, which forwards /api to the backend for frontend.",
   "domain": ["page in the browser", "container cars-client, nginx, uid 1000"],
   "interfaces": {
